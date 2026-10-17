@@ -1,0 +1,74 @@
+name: rahmani_project
+description: Booth-based multi-vendor marketplace for Afghanistan.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  supabase_flutter: ^2.9.1
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+  fpdart: ^1.1.1
+  flutter_dotenv: ^5.2.1
+  intl: ^0.20.2
+  cached_network_image: ^3.4.1
+  image: ^4.5.4
+  image_picker: ^1.2.3
+  package_info_plus: ^8.3.0
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.2
+  firebase_core: ^3.13.0
+  firebase_crashlytics: ^4.3.5
+  firebase_messaging: ^15.2.4
+  google_fonts: ^8.2.1
+  shared_preferences: ^2.5.5
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  geolocator: ^14.0.2
+  crop_your_image: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.15
+  freezed: ^3.0.6
+  json_serializable: ^6.9.5
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/branding/app_icon.png
+  adaptive_icon_background: "#0E321E"
+  adaptive_icon_foreground: assets/branding/app_icon.png
+
+flutter_native_splash:
+  color: "#0E321E"
+  image: assets/branding/app_icon.png
+  android_12:
+    color: "#0E321E"
+    image: assets/branding/app_icon.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/branding/app_icon.png
+    - assets/branding/login_hero.png
+    - assets/branding/login_skyline.png
+    - assets/branding/otp_hero.png
+    - assets/branding/search_hero.png
+    - assets/legal/privacy_policy_fa.md
+    - assets/legal/terms_of_service_fa.md

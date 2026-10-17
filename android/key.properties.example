@@ -1,0 +1,9 @@
+# Android release signing — copy to key.properties (never commit).
+# Generate keystore:
+#   keytool -genkey -v -keystore android/keystore/rahmani-release.jks \
+#     -keyalg RSA -keysize 2048 -validity 10000 -alias rahmani
+
+storePassword=your-store-password
+keyPassword=your-key-password
+keyAlias=rahmani
+storeFile=keystore/rahmani-release.jks

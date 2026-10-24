@@ -50,9 +50,9 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: assets/branding/app_icon.png
+  image_path: assets/branding/app_icon.jpg
   adaptive_icon_background: "#0E321E"
-  adaptive_icon_foreground: assets/branding/app_icon.png
+  adaptive_icon_foreground: assets/branding/app_icon.jpg
 
 flutter_native_splash:
   color: "#0E321E"
@@ -65,7 +65,7 @@ flutter:
   uses-material-design: true
   assets:
     - .env
-    - assets/branding/app_icon.png
+    - assets/branding/app_icon.jpg
     - assets/branding/login_hero.png
     - assets/branding/login_skyline.png
     - assets/branding/otp_hero.png

@@ -17,7 +17,7 @@ class KalBalaLogoMark extends StatelessWidget {
   final Color? color;
   final bool showAccent;
 
-  /// When true, shows the full branded PNG (green tile with cart + K).
+  /// When true, shows the full branded icon (green tile with cart + K).
   final bool useBrandAsset;
 
   @override
@@ -26,7 +26,7 @@ class KalBalaLogoMark extends StatelessWidget {
       return ClipRRect(
         borderRadius: BorderRadius.circular(size * 0.22),
         child: Image.asset(
-          'assets/branding/app_icon.png',
+          'assets/branding/app_icon.jpg',
           width: size,
           height: size,
           fit: BoxFit.cover,
